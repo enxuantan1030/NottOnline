@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- You can customize your network security configuration here -->
+    <!-- For example, allow cleartext traffic for all domains -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

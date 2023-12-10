@@ -1,0 +1,286 @@
+<resources>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="upcoming_event">Upcoming Event</string>
+    <string name="recent_used">Recent Used</string>
+    <string name="login_button">login_button</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="button_back">button_back</string>
+    <string name="contact_your_school_administrator_for_assistance_n_n_email_n_schooladmin_nottingham_edu_my_n_n_phone_n_60_9011_1234">Contact your school administrator for assistance. \n\n Email \n schooladmin@nottingham.edu.my \n\n Phone \n +60 9011- 1234</string>
+    <string name="blue_castle">Blue_Castle</string>
+    <string name="nottinghamhub">NottinghamHub</string>
+    <string name="course_schedule_checker">Course Schedule Checker</string>
+    <string name="sport_complex">Sport Complex</string>
+    <string name="facilities">Facilities</string>
+    <string name="notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="schedule">Schedule</string>
+    <string name="create_new_event">Create New Event</string>
+    <string name="title">Title</string>
+    <string name="meeting">Meeting</string>
+    <string name="description">Description</string>
+    <string name="discussion">Discussion</string>
+    <string name="date">Date</string>
+    <string name="button_blue">button_blue</string>
+    <string name="button_green">button_green</string>
+    <string name="button_purple">button_purple</string>
+    <string name="alarm">Alarm</string>
+    <string name="notify_10_minutes_before">Notify 10 minutes before</string>
+    <string name="button_blue_add_event">button_blue_add_event</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notificationFragment">Notification Fragment</string>
+    <string name="facilitiesFragment">Facilities Fragment</string>
+    <string name="inputPassword">*********</string>
+    <string name="nottonline">NottOnline</string>
+    <string name="e_g_hfyec4">e_g_hfyec4</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="username">Username</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="school_divison">Select School/Divison</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_week">Select Week</string>
+    <string name="select_course">Select Course</string>
+    <string name="select_year">Select Year</string>
+    <string name="check_button">check_button</string>
+    <string name="scroll_course">Scroll_course</string>
+    <string name="select_exclude_module">Select Exclude Module:</string>
+    <string name="select_exclude_type">Select Exclude Type:</string>
+    <string name="select_exclude_location">Select Exclude Location:</string>
+    <string name="select_exclude_staff">Select Exclude Staff:</string>
+    <string name="button_apply">button_apply</string>
+    <string name="filters">Select filters:</string>
+
+    <string-array name="schooloptions">
+        <item value="MSC-AMATH">App Math</item>
+        <item value="MSC-APPPSY">App Psych</item>
+        <item value="MSC-AEF">Art &amp; Ed F</item>
+        <item value="MSC-BIOMED">Biom Sci</item>
+        <item value="MSC-BIOSCI">Biosci</item>
+        <item value="MSC-BMF">Bus &amp; M F</item>
+        <item value="MSC-CEE">Chem &amp; EE</item>
+        <item value="MSC-CIVE">Civ Eng</item>
+        <item value="MSC-CS">Comp Sci</item>
+        <item value="MSC-EEE">E &amp; EE</item>
+        <item value="MSC-ECON">Economics</item>
+        <item value="MSC-ED">Education</item>
+        <item value="MSC-ENGF">Eng (Fn)</item>
+        <item value="MSC-ENGL">English</item>
+        <item value="MSC-MLC">MLC</item>
+    </string-array>
+
+
+    <string-array name="yearoptions">
+        <item>/00, Foundation</item>
+        <item>/01, Year 1</item>
+        <item>/02, Year 2</item>
+        <item>/03, Year 3</item>
+        <item>/04, Year 4</item>
+    </string-array>
+
+    <string-array name="weeksOptions">
+        <item>1-52, All Year (Wks 1-52)</item>
+        <item>4-15, Autumn Semester (Wks 4-15)</item>
+        <item>22-23;25-31;33-35, Spring Semester (Wk 22-23, 25-31, 33-35)</item>
+        <item>39-50, Summer Semester (Wks 39-50)</item>
+        <item>4-15,22-23;25-31;33-35, Full Year Semester (Wk 4-15, 22-23, 25-31, 33-35)</item>
+        <item>1-12, Sept Foundation Sem 0/Apr Sem 1/Jun Sem1 (Wks 1-12)</item>
+        <item>18-23;25-30, Sept Foundation Sem 1/Apr Sem 2/Jun Sem 2 (Wks 18-23, 25-30)</item>
+        <item>35-44, Sept Foundation Sem 2 (Wks 35-44)</item>
+        <item>35-44, April Foundation Sem 0 (2024-25) (Wks 35-44)</item>
+        <item>, This Week</item>
+        <item>1, w/c Mon 04 Sep 2023 (Wk 1)</item>
+        <item>2, w/c Mon 11 Sep 2023 (Wk 2)</item>
+        <item>3, w/c Mon 18 Sep 2023 (Wk 3)</item>
+        <item>4, w/c Mon 25 Sep 2023 (Wk 4)</item>
+        <item>5, w/c Mon 02 Oct 2023 (Wk 5)</item>
+        <item>6, w/c Mon 09 Oct 2023 (Wk 6)</item>
+        <item>7, w/c Mon 16 Oct 2023 (Wk 7)</item>
+        <item>8, w/c Mon 23 Oct 2023 (Wk 8)</item>
+        <item>9, w/c Mon 30 Oct 2023 (Wk 9)</item>
+        <item>10, w/c Mon 06 Nov 2023 (Wk 10)</item>
+        <item>11, w/c Mon 13 Nov 2023 (Wk 11)</item>
+        <item>12, w/c Mon 20 Nov 2023 (Wk 12)</item>
+        <item>13, w/c Mon 27 Nov 2023 (Wk 13)</item>
+        <item>14, w/c Mon 04 Dec 2023 (Wk 14)</item>
+        <item>15, w/c Mon 11 Dec 2023 (Wk 15)</item>
+        <item>16, w/c Mon 18 Dec 2023 (Wk 16)</item>
+        <item>17, w/c Mon 25 Dec 2023 (Wk 17)</item>
+        <item>18, w/c Mon 01 Jan 2024 (Wk 18)</item>
+        <item>19, w/c Mon 08 Jan 2024 (Wk 19)</item>
+        <item>20, w/c Mon 15 Jan 2024 (Wk 20)</item>
+        <item>21, w/c Mon 22 Jan 2024 (Wk 21)</item>
+        <item>22, w/c Mon 29 Jan 2024 (Wk 22)</item>
+        <item>23, w/c Mon 05 Feb 2024 (Wk 23)</item>
+        <item>24, w/c Mon 12 Feb 2024 (Wk 24)</item>
+        <item>25, w/c Mon 19 Feb 2024 (Wk 25)</item>
+        <item>26, w/c Mon 26 Feb 2024 (Wk 26)</item>
+        <item>27, w/c Mon 04 Mar 2024 (Wk 27)</item>
+        <item>28, w/c Mon 11 Mar 2024 (Wk 28)</item>
+        <item>29, w/c Mon 18 Mar 2024 (Wk 29)</item>
+        <item>30, w/c Mon 25 Mar 2024 (Wk 30)</item>
+        <item>31, w/c Mon 01 Apr 2024 (Wk 31)</item>
+        <item>32, w/c Mon 08 Apr 2024 (Wk 32)</item>
+        <item>33, w/c Mon 15 Apr 2024 (Wk 33)</item>
+        <item>34, w/c Mon 22 Apr 2024 (Wk 34)</item>
+        <item>35, w/c Mon 29 Apr 2024 (Wk 35)</item>
+        <item>36, w/c Mon 06 May 2024 (Wk 36)</item>
+        <item>37, w/c Mon 13 May 2024 (Wk 37)</item>
+        <item>38, w/c Mon 20 May 2024 (Wk 38)</item>
+        <item>39, w/c Mon 27 May 2024 (Wk 39)</item>
+        <item>40, w/c Mon 03 Jun 2024 (Wk 40)</item>
+        <item>41, w/c Mon 10 Jun 2024 (Wk 41)</item>
+        <item>42, w/c Mon 17 Jun 2024 (Wk 42)</item>
+        <item>43, w/c Mon 24 Jun 2024 (Wk 43)</item>
+        <item>44, w/c Mon 01 Jul 2024 (Wk 44)</item>
+        <item>45, w/c Mon 08 Jul 2024 (Wk 45)</item>
+        <item>46, w/c Mon 15 Jul 2024 (Wk 46)</item>
+        <item>47, w/c Mon 22 Jul 2024 (Wk 47)</item>
+        <item>48, w/c Mon 29 Jul 2024 (Wk 48)</item>
+        <item>49, w/c Mon 05 Aug 2024 (Wk 49)</item>
+        <item>50, w/c Mon 12 Aug 2024 (Wk 50)</item>
+        <item>51, w/c Mon 19 Aug 2024 (Wk 51)</item>
+        <item>52, w/c Mon 26 Aug 2024 (Wk 52)</item>
+    </string-array>
+
+
+    <string-array name="dayoptions">
+        <item>1-5,All Weekdays (Mon-Fri)</item>
+        <item>1-7,All Week (Mon-Sun)</item>
+        <item>6-7,All Weekend (Sat-Sun)</item>
+        <item>1,Monday</item>
+        <item>2,Tuesday</item>
+        <item>3,Wednesday</item>
+        <item>4,Thursday</item>
+        <item>5,Friday</item>
+        <item>6,Saturday</item>
+        <item>7,Sunday</item>
+    </string-array>
+
+
+    <string-array name="appMath_courses">
+        <item>UG/M1285/M6UMATHDS/F, BSc Hons Maths &amp; Data Science</item>
+        <item>UG/M1197/M6UBSMMGT/F, BSc Hons Maths &amp; Management</item>
+    </string-array>
+
+    <string-array name="appPsychMgmtOptions">
+        <item>UG/M1028/M6UAPPMS/F, BSc Hons App Psych &amp; Mgmt</item>
+        <item>PGT/M1109/M7PMGTPS/F, MSc Management Psychology</item>
+        <item>PGT/M1109/M7PMGTPS/P, MSc Occ Hlth &amp; Safety Leadshp</item>
+    </string-array>
+
+    <string-array name="foundationArtsEdOptions">
+        <item>FND/M1211/M5UFDAET/F, Cert Fnd Prog in Arts &amp; Ed - FNM5 Foundation Programme in Arts and Education 2 semesters</item>
+        <item>FND/M1210/M5UFDAEA/F, Cert Fnd Prog in Arts &amp; Ed - FNM5 Foundation Programme in Arts and Education 3 semesters</item>
+        <item>FND/M1212/M5UFDAES/F, Cert Fnd Prog in Arts &amp; Ed - FNM5 Foundation Programme in Arts and Education</item>
+    </string-array>
+
+    <string-array name="biomedicalSciOptions">
+        <item>UG/M1029/M6UBMEDSM2/F, BSc Hons Biomedical Sci (2+1)</item>
+        <item>UG/M1029/M6UBMEDC4/F, BSc Hons Biomedical Sciences</item>
+        <item>UG/M1029/M6UBMEDC4/F, Biomedical Sciences Short Crs</item>
+    </string-array>
+
+    <string-array name="biotechnologyOptions">
+        <item>UG/M1030/M6UBTECH/F, BSc Hons Biotechnology</item>
+        <item>UG/M1034/M6UNUTRN4/F, BSc Hons Nutrition</item>
+        <item>PGT/M1235/M7PBTECHP/P, MSc Biotechnology</item>
+        <item>UG/M1034/M6UNUTRSC5/F, Nutrition Short Course</item>
+    </string-array>
+
+    <string-array name="foundationBusMgmtOptions">
+        <item>FND/M1214/M5UFDBMT/F, Cert Fnd Prog in Bus &amp; Mgmt - FNM1 Foundation Programme in Business and Management 2 semesters</item>
+        <item>FND/M1213/M5UFDBMA/F, Cert Fnd Prog in Bus &amp; Mgmt - FNM1 Foundation Programme in Business and Management 3 semesters</item>
+        <item>FND/M1215/M5UFDBMS/F, Cert Fnd Prog in Bus &amp; Mgmt - FNM1 Foundation Programme in Business and Management</item>
+    </string-array>
+
+    <string-array name="chemicalEnvEngOptions">
+        <item>UG/M1100/M6UCEEVEN/F, BEng Hons Chem Eng w Env Eng</item>
+        <item>UG/M1099/M6UCHENG/F, BEng Hons Chemical Engineering</item>
+        <item>UG/M1100/M7UCEEVE/F, MEng Hons Chem Eng w Env Eng</item>
+        <item>UG/M1099/M7UCHENG/F, MEng Hons Chemical Engineering</item>
+        <item>PGT/M1047/M7PCHENG/F, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1222/M7PCHENGF/F, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1047/M7PCHENGP/P, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1222/M7PCHENGFP/P, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1047/M7PCHENGP/P, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1222/M7PCHENGFP/P, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1047/M7PCHENGP/P, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1222/M7PCHENGFP/P, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1047/M7PCHENGP/P, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1222/M7PCHENGFP/P, MSc Adv Chemical Engineering</item>
+        <item>PGT/M1103/M7PEVENG/F, MSc Environmental Engineering</item>
+        <item>PGT/M1223/M7PEVENGF/F, MSc Adv Chemical Engineering</item>
+    </string-array>
+
+    <string-array name="civilEngOptions">
+        <item>UG/M1101/M6UCVENG/F, BEng Hons Civil Engineering</item>
+        <item>UG/M1101/M7UCVENG/F, MEng Hons Civil Engineering</item>
+        <item>PGT/M1048/M7PCVENG/F, MSc Adv Civil Engineering</item>
+    </string-array>
+
+    <string-array name="compSciAIShortOptions">
+        <item>UG/M1059/M6UCOMPAI/F, BSc Hons Comp Sci with AI 3+0</item>
+        <item>UG/M1059/M6UCMPAI/F, BSc Hons Comp Sci with AI</item>
+        <item>UG/M1059/M6UCMPSC/F, BSc Hons Computer Science</item>
+        <item>UG/M1039/M6USWENG/F, BSc Hons Software Engineering</item>
+        <item>UG/M1125/M6UCOSSC3/F, Computer Science Short Course</item>
+        <item>PGT/M1198/M7PCOMPSC/F, MSc Computer Science</item>
+        <item>UG/M1039/M6USWENGSC/F, Software Engineering Short Crs</item>
+    </string-array>
+
+    <string-array name="eeEngOptions">
+        <item>UG/M1024/M6UEEENG/F, BEng Hons Electl &amp; Electnc Eng</item>
+        <item>UG/M1027/M6UMTENG/F, BEng Hons Mechatronic Eng</item>
+        <item>UG/M1024/M7UEEENG/F, MEng Hons Electl &amp; Electnc Eng</item>
+        <item>UG/M1027/M7UMTENG/F, MEng Hons Mechatronic Eng</item>
+        <item>PGT/M1272/M7PEEENG/F, MSc Electrical&amp;Electronic Eng</item>
+        <item>UG/M1027/M6UMTENGSC/F, Mechatronic Eng Short Crs</item>
+    </string-array>
+
+    <string-array name="economicsOptions">
+        <item>UG/M1032/M6UECNMS/F, BSc Hons Economics</item>
+        <item>UG/M1122/M6UECOIE/F, BSc Hons Econs &amp; Int Econs</item>
+    </string-array>
+
+    <string-array name="educationOptions">
+        <item>UG/M1015/M6UEDUCT/F, BA Hons Education (TESOL)</item>
+        <item>UG/M1023/M6UTESOL/F, BEd Hons TESOL</item>
+        <item>UG/M1015/M6UEDUCTSC/F, Education (TESOL) Short Crs</item>
+        <item>PGT/M1041/M7PELMGT/P, MA Edl Leadership &amp; Mgmt</item>
+        <item>PGT/M1040/M7PEDCTNP/P, MA Education (GGS)</item>
+        <item>PGT/M1238/M7PEDCTNAA/P, MA Education (NAA)</item>
+        <item>PGT/M1253/M7PELMTMSF/F, MA Education Lead &amp; Mgmt</item>
+        <item>PGT/M1257/M7PEDCTMFF/F, MA Education</item>
+        <item>PGT/M1253/M7PELMTMSP/P, MA Education Lead &amp; Mgmt</item>
+        <item>PGT/M1259/M7PSIEDMFF/F, MA Special &amp; Inclusive Edu</item>
+        <item>PGT/M1259/M7PSIEDMFF/F, MA TESOL</item>
+        <item>PGT/M1196/M7PEDCCSL/P, PG Cert Education SL (GGS)</item>
+        <item>PGT/M1040/M7PEDCTNC/F, PG Cert Education</item>
+        <item>PGT/M1243/M7PHEDICNF/F, PG Cert Higher Education (Int)</item>
+        <item>PGT/M1238/M7PEDCTNAD/P, PG Dip Education (NAA)</item>
+        <item>PGT/M1196/M7PEDCDSL/P, PG Dip Education SL (GGS)</item>
+        <item>PGT/M1239/M7PEDCTDNF/F, PG Dip Education</item>
+        <item>PGT/M1240/M7PELMTCNF/F, PGCert Ed Lead &amp; Mgmt</item>
+        <item>PGT/M1206/M7PEDULMAB/P, PGCert EducationLead&amp;Mgmt(ABT)</item>
+        <item>PGT/M1142/M7PSPCNEC/F, PGCert Special &amp; Inc Edu</item>
+        <item>PGT/M1220/M7PTESOLCN/F, PGCert TESOL</item>
+        <item>PGT/M1240/M7PELMTDNF/F, PGDip Edl Leadership &amp; Mgmt</item>
+        <item>PGT/M1142/M7PSPCNED/F, PGDip Special &amp; Inc Edu</item>
+        <item>PGT/M1220/M7PTESOLDN/F, PGDip TESOL</item>
+    </string-array>
+
+    <string-array name="engineeringFoundationOptions">
+        <item>FND/M1218/M5UFDEGT/F/00, Cert Fnd Prog in Engineering - FNM4 Foundation Programme in Engineering 2 semesters</item>
+        <item>FND/M1217/M5UFDEGJ/F/00, Cert Fnd Prog in Engineering - FNM4 Foundation Programme in Engineering 3 semesters</item>
+    </string-array>
+
+    <string-array name="englishCreativeWritingOptions">
+        <item>UG/M1016/M6UENLCW/F, BA Hons English with Creative Writing - QNM1 English with Creative Writing</item>
+        <item>UG/M1074/M6UENLLL/F, BA Hons English Language &amp; Lit - QNM2 English Language and Literature</item>
+        <item>PGT/M1073/M7PENLLL/F, MA English Language &amp; Lit - QNM3 English Language and Literature</item>
+        <item>PGT/M1076/M7PENLCW/F, MA English with Creative Writing - QNM4 English with Creative Writing</item>
+    </string-array>
+
+
+</resources>

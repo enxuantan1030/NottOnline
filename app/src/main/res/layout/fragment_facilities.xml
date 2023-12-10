@@ -1,0 +1,64 @@
+<!-- fragment_home.xml -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_facilities">
+
+    <!-- Nested RelativeLayout for positioning child views -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="259dp"
+        android:text="@string/facilities"
+        android:textColor="#000000"
+        android:textSize="26sp" />
+
+    <ImageButton
+        android:id="@+id/button_nottinghamhub"
+        android:layout_width="162dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="396dp"
+        android:background="@drawable/button_hub"
+        android:contentDescription="@string/nottinghamhub" />
+
+    <ImageButton
+        android:id="@+id/button_course_checker"
+        android:layout_width="152dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="216dp"
+        android:background="@drawable/button_checker"
+        android:contentDescription="@string/course_schedule_checker" />
+
+    <ImageButton
+        android:id="@+id/button_blue_castle"
+        android:layout_width="168dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="206dp"
+        android:background="@drawable/button_blue_castle"
+        android:contentDescription="@string/blue_castle" />
+
+    <ImageButton
+        android:id="@+id/button_sport_complex"
+        android:layout_width="152dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/button_sport"
+        android:contentDescription="@string/sport_complex" />
+
+</FrameLayout>
